@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image":"/images/doro.png",
+    "name": "Doro Wet",
+    "price": 250,
+    "category": "main",
+    "spicy": true,
+    "description": "A traditional Ethiopian chicken stew cooked with berbere spices."
+  },
+  {
+    "id": 2,
+    "image":"/images/kitfo.png",
+    "name": "Kitfo",
+    "price": 350,
+    "category": "main",
+    "spicy": true,
+    "description": "Minced beef seasoned with mitmita and Ethiopian butter."
+  },
+  {
+    "id": 3,
+    "image":"/images/shro.png",
+    "name": "Shiro",
+    "price": 150,
+    "category": "side",
+    "spicy": false,
+    "description": "A smooth chickpea stew made with Ethiopian spices."
+  },
+  {
+    "id": 4,
+    "image":"/images/injera.png",
+    "name": "Injera",
+    "price": 50,
+    "category": "side",
+    "spicy": false,
+    "description": "Traditional Ethiopian sourdough flatbread made from teff."
+  },
+  {
+    "id": 5,
+    "image":"/images/ayib.png",
+    "name": "Ayib",
+    "price": 100,
+    "category": "side",
+    "spicy": false,
+    "description": "Fresh Ethiopian cottage cheese often served with spicy dishes."
+  },
+  {
+    "id": 6,
+    "image":"/images/gomen.png",
+    "name": "Gomen",
+    "price": 100,
+    "category": "side",
+    "spicy": false,
+    "description": "Collard greens cooked with Ethiopian spices."
+  },
+  {
+    "id": 7,
+    "image":"/images/tibs.png",
+    "name": "Tibs",
+    "price": 300,
+    "category": "main",
+    "spicy": true,
+    "description": "Sautéed beef cooked with onions, peppers, and Ethiopian spices."
+  },
+  {
+    "id": 8,
+    "image":"/images/beyaynetu.png",
+    "name": "Beyainetu",
+    "price": 250,
+    "category": "main",
+    "spicy": false,
+    "description": "A colorful combination of Ethiopian vegetarian dishes served together."
+  }
+]
