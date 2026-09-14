@@ -16,7 +16,7 @@ function DishDetail() {
         setLoading(true);
         setError("");
 
-        const response = await fetch("/dishes.json");
+        const response = await fetch(`${import.meta.env.BASE_URL}dishes.json`);
 
         if (!response.ok) {
           throw new Error("Failed to load dishes");
