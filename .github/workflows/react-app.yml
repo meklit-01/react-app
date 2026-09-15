@@ -19,7 +19,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    # GitHub Pages environment
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
