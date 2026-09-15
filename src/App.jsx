@@ -11,7 +11,7 @@ import NotFound from "./pages/NotFound";
 import RequireAuth from "./RequireAuth";
 import ErrorBoundary from "./ErrorBoundary";
 
-// Exercise 3: checkout and receipt are loaded only when their routes are opened.
+
 const Checkout = lazy(() => import("./pages/ChakOut"));
 const Receipt = lazy(() => import("./pages/Receipt"));
 
@@ -78,8 +78,6 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-
-        {/* Exercise 1: Menu has its own error boundary. */}
         <Route
           path="menu"
           element={
@@ -91,7 +89,6 @@ function App() {
 
         <Route path="menu/:id" element={<DishDetail />} />
 
-        {/* Exercise 1: Cart has a separate error boundary. */}
         <Route
           path="cart"
           element={
@@ -103,7 +100,6 @@ function App() {
 
         <Route path="login" element={<Login />} />
 
-        {/* Exercises 3 + 4 + 5: lazy route, Suspense skeleton, chunk-error boundary. */}
         <Route
           path="checkout"
           element={

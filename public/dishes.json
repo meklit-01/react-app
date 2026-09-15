@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image":"/images/doro.png",
+    "image":"images/doro.png",
     "name": "Doro Wet",
     "price": 250,
     "category": "main",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "image":"/images/kitfo.png",
+    "image":"images/kitfo.png",
     "name": "Kitfo",
     "price": 350,
     "category": "main",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "image":"/images/shro.png",
+    "image":"images/shro.png",
     "name": "Shiro",
     "price": 150,
     "category": "side",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "image":"/images/injera.png",
+    "image":"images/injera.png",
     "name": "Injera",
     "price": 50,
     "category": "side",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "image":"/images/ayib.png",
+    "image":"images/ayib.png",
     "name": "Ayib",
     "price": 100,
     "category": "side",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "image":"/images/gomen.png",
+    "image":"images/gomen.png",
     "name": "Gomen",
     "price": 100,
     "category": "side",
@@ -55,7 +55,7 @@
   },
   {
     "id": 7,
-    "image":"/images/tibs.png",
+    "image":"images/tibs.png",
     "name": "Tibs",
     "price": 300,
     "category": "main",
@@ -64,7 +64,7 @@
   },
   {
     "id": 8,
-    "image":"/images/beyaynetu.png",
+    "image":"images/beyaynetu.png",
     "name": "Beyainetu",
     "price": 250,
     "category": "main",

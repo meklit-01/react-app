@@ -13,7 +13,7 @@ function Dish({ dish }) {
     <>
       <Card>
         <div className="dish-card">
-         <img src={`${import.meta.env.BASE_URL}${dishimage}`}
+         <img src={`${import.meta.env.BASE_URL}${dish.image}`}
             alt={dish.name}
          />
           <div className="discribtion">
