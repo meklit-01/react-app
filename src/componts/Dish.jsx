@@ -13,7 +13,9 @@ function Dish({ dish }) {
     <>
       <Card>
         <div className="dish-card">
-         <img src={dish.image} alt="" />
+         <img src={`${import.meta.env.BASE_URL}${dishimage}`}
+            alt={dish.name}
+         />
           <div className="discribtion">
             <h3>{dish.name}</h3>
             <p className="category">{dish.category}</p>
