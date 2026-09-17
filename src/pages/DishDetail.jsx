@@ -57,7 +57,9 @@ function DishDetail() {
 
   return (
     <section className="dish-detail">
-     <img src={dish.image} alt={dish.name} />
+     <img src={`${import.meta.env.BASE_URL}${dish.image}`}
+            alt={dish.name}
+         />
       <h2>{dish.name}</h2>
       <p className="category">Category: {dish.category}</p>
       <p>{dish.description}</p>
