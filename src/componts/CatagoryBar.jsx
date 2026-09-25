@@ -5,6 +5,7 @@ function CategoryBar({
 }) {
   return (
     <div className="category-bar">
+      
       {categories.map((category) => (
         <button
           key={category}

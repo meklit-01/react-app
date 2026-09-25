@@ -77,6 +77,7 @@ function Menu() {
         <p>No dishes found.</p>
       ) : (
         <div className="dish-grid">
+          
           {filteredDishes.map((dish, index) => {
             if (testError && index === 0) {
               throw new Error("Deliberate menu error for testing");
